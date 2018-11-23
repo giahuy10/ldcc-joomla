@@ -1,0 +1,30 @@
+.home-sticky .rd-navbar-static .rd-navbar-nav > li {
+    display: block;
+}
+
+.home-sticky .rd-navbar-static.rd-navbar--is-stuck, .home-sticky .rd-navbar-static {
+    position: initial;
+    background: #0000009c;
+    padding: 25px;
+   
+}
+.home-sticky .rd-navbar-static .rd-navbar-nav > li > a {
+  color: #fff;
+   font-size: 20px;
+}
+.home-sticky .rd-navbar-static .rd-navbar-nav > li.active > a {
+  color: #ed1c24;
+}
+.home-sticky .rd-navbar-static .rd-navbar-nav > li > a i {
+    font-style: initial;
+}
+.home-sticky {
+       position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+       
+}
